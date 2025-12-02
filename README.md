@@ -2,24 +2,13 @@
 This is the replication package for my STA145 class. I analyzed Legislatures in New Jersey and compared education level achieved against political party affiliation to see if there is a correlation between the two.
 
 
-Instructions
+#Instructions
 To access and utilize the script, open the "STA145-STRAINM2.R" file, which contains the code for my project. To access the dataset, open the "Politics 4-NJ Leg - Data Table Tabular (1).csv file.
 
-Data
+#Data
 The data collected for this project was New Jersey Legislators and their political party affiliation, as well as the level of education each legislator has achieved. The main goal of analysis was to see if there was a statistically significant relationship between the two variables. I analyzed the relationship by plotting the number of legislators who are associated with each political party and the highest degree they recieved. 
 
+#Operationalization
+To operationalize political party affiliation, I went to njleg.state.nj and took down the total number of Legislators in New Jersey. I then went through and assigned a dummy variable to each party. Legislators who affiliated with the democratic party got a 1, while legislators affiliated with the republican party recieved a 2. There are no New Jersey legislators affiliated with any other party, however, the "other" category was operationalized with a 3.
 
-Being a band that explores a wide range of genres, the main goal of the analysis was to determine which types of songs listeners enjoy the most and comparing that to which ones I enjoyed the most. I analyzed their discography by taking account each song's length in seconds, by finding the number of listens, categorizing each song into a few possible descriptions, categorizing the lyrical content into certain topics, giving each song a rating based on how much I enjoyed it, and inputting which album each song was on.
-
-Operationalization
-To operationalize number of listens, I went to Spotify and took down the number of streams each song had received in its history.
-
-I did the same for finding song length, going to Spotify and converting the length of each song into seconds
-
-The concept of song description was operationalized by reviewing the discography and coming up with a few adjectives that could describe a good amount of songs. Psychedelic songs are ones that fit mostly into the psychedelic rock genre along with some other songs that were "trippy" in nature. Aggressive songs are either their punk-y or metal songs that were fast-paced and loud. Upbeat songs are, as the name suggests, more upbeat and happier, more pleasant-sounding. Groovy songs are the ones that have a defined, hard to ignore groove that makes the listener want to move. Chill songs are often down-tempo, mellow songs with softer instrumentation. Heavy songs are down-tempo but with louder, harder, and more distorted instrumentation. Lastly is Other, for those songs that did not easily fit into the other descriptors.
-
-The concept of song topic was operationalized in a similar way. After reviewing each song's lyrics, I came up with a few categories that most songs fit into. Love/Relationship includes songs that are primarily about relationships and on less frequent occasions, the concept of love itself. Narrative songs have a cohesive story in the lyrical content. Person/Character songs are about individual people or characters, while a narrative song may have characters, person/character songs focus on an individual, not the story. Societal Issue songs are about struggles that greater society faces. The Other category once again acting as a catch-all for songs that don't easily fit into the other topics.
-
-I measured my personal enjoyment on a scale of 1-10 with 1 meaning I disliked the song and 10 meaning I loved the song.
-
-My final variable was the album each song was on. This was used as a grouping variable to measure differences between not just songs but whole albums.
+Level of education recieved was operationalized in a similar manner, with numbers being assigned to each category. Legislators who only completed up to high school recieved a 1, those who have recieved up to a bachelors recieved a 2, those who recieved a master's degree got a 3, those who recieved a JD/MD degree got a 4, and those with a PhD recieved a 5. All information was found on njleg.state.nj.
