@@ -3,10 +3,13 @@ This is the replication package for my STA145 class. I analyzed Legislatures in 
 
 
 Instructions
-To access and utilize the script, open the "STA145-STRAINM2.R" file, which contains the code for my project. To access the dataset, open the "UPDATED FINAL PROJ DATASET - Sheet1 (2).csv" file.
+To access and utilize the script, open the "STA145-STRAINM2.R" file, which contains the code for my project. To access the dataset, open the "Politics 4-NJ Leg - Data Table Tabular (1).csv file.
 
 Data
-The data collected for this project was songs from the studio albums of the band King Gizzard and the Lizard Wizard. Being a band that explores a wide range of genres, the main goal of the analysis was to determine which types of songs listeners enjoy the most and comparing that to which ones I enjoyed the most. I analyzed their discography by taking account each song's length in seconds, by finding the number of listens, categorizing each song into a few possible descriptions, categorizing the lyrical content into certain topics, giving each song a rating based on how much I enjoyed it, and inputting which album each song was on.
+The data collected for this project was New Jersey Legislators and their political party affiliation, as well as the level of education each legislator has achieved. The main goal of analysis was to see if there was a statistically significant relationship between the two variables. I analyzed the relationship by plotting the number of legislators who are associated with each political party and the highest degree they recieved. 
+
+
+Being a band that explores a wide range of genres, the main goal of the analysis was to determine which types of songs listeners enjoy the most and comparing that to which ones I enjoyed the most. I analyzed their discography by taking account each song's length in seconds, by finding the number of listens, categorizing each song into a few possible descriptions, categorizing the lyrical content into certain topics, giving each song a rating based on how much I enjoyed it, and inputting which album each song was on.
 
 Operationalization
 To operationalize number of listens, I went to Spotify and took down the number of streams each song had received in its history.
