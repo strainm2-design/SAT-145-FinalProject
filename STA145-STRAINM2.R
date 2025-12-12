@@ -22,3 +22,7 @@ table(data$education, data$party)
 chisq.test(table(data$education, data$party))
 
 
+##################################################################################
+####################  Table 3: fisher's exact                ####################   
+##################################################################################
+fisher.test(data$education, data$party)
